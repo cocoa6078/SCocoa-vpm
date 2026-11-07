@@ -1,0 +1,24 @@
+{
+  "name": "com.scocoa.liltoon-matcap-extender",
+  "displayName": "lilToon MatCap Extender",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Adds MatCap 3rd-6th slots to lilToon and lilToon-based custom shaders (PCSS4lilToon, lilSSRT, ...) at NDMF build time. Unused slots are not compiled.",
+  "author": {
+    "name": "Scocoa",
+    "url": "https://github.com/cocoa6078"
+  },
+  "license": "MIT",
+  "keywords": ["lilToon", "MatCap", "NDMF", "VRChat"],
+  "url": "https://github.com/cocoa6078/SCocoa-vpm/releases/download/0.1.0/com.scocoa.liltoon-matcap-extender-0.1.0.zip",
+  "changelogUrl": "https://github.com/cocoa6078/SCocoa-vpm/releases",
+  "documentationUrl": "https://github.com/cocoa6078/SCocoa-vpm/tree/main/Packages/com.scocoa.liltoon-matcap-extender#readme",
+  "vpmDependencies": {
+    "jp.lilxyzw.liltoon": ">=2.0.0",
+    "nadena.dev.ndmf": ">=1.5.0"
+  },
+  "testedVersions": {
+    "jp.lilxyzw.liltoon": ["2.4.1"],
+    "nadena.dev.ndmf": ["1.14.8"]
+  }
+}

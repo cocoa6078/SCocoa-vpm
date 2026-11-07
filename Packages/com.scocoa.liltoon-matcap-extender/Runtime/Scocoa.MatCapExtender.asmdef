@@ -1,9 +1,8 @@
 {
-    "name": "VRChatPackageTemplate.Editor",
+    "name": "Scocoa.MatCapExtender",
+    "rootNamespace": "Scocoa.MatCapExtender",
     "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

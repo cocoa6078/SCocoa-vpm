@@ -1,0 +1,21 @@
+{
+    "name": "Scocoa.MatCapExtender.Editor",
+    "rootNamespace": "Scocoa.MatCapExtender.Editor",
+    "references": [
+        "Scocoa.MatCapExtender",
+        "nadena.dev.ndmf",
+        "nadena.dev.ndmf.runtime",
+        "lilToon.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
