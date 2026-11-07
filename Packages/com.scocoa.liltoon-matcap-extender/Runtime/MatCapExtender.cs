@@ -70,7 +70,11 @@ namespace Scocoa.MatCapExtender
 
     [DisallowMultipleComponent]
     [AddComponentMenu("Scocoa/lilToon MatCap Extender")]
+    // IEditorOnly: the VRChat SDK build check and client skip this component (NDMF removes it at build anyway).
     public class MatCapExtender : MonoBehaviour
+#if SCOCOA_MCX_VRCSDK
+        , VRC.SDKBase.IEditorOnly
+#endif
     {
         public bool enablePreview = true;
         public List<MatCapTarget> targets = new List<MatCapTarget>();
